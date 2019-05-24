@@ -1,6 +1,5 @@
 <?php
-echo 'test';
-/*use App\Kernel;
+use App\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\HttpFoundation\Request;
@@ -33,4 +32,4 @@ $kernel = new Kernel($_SERVER['APP_ENV'] ?? 'dev', $_SERVER['APP_DEBUG'] ?? ('pr
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
-$kernel->terminate($request, $response);*/
+$kernel->terminate($request, $response);
